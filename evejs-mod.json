@@ -8,7 +8,7 @@
   "changelog": "",
   "conflicts": [],
   "delisted": false,
-  "description": "游戏内右键 GM / WM 菜单与 Insider 工具栏菜单汉化，保留权限和原始命令。",
+  "description": "汉化 GM／WM 扩展菜单、物品 GM 命令和 Insider 工具栏，并提供获取 M10 T20 蓝图的右键入口。",
   "displayName": "GM菜单汉化",
   "downloadUrls": [
     {
@@ -21,21 +21,18 @@
     "0.12.9"
   ],
   "featured": false,
-  "highlights": [],
+  "highlights": [
+    "汉化右键 GM／WM 扩展菜单及物品 GM 命令。",
+    "汉化 Insider 工具栏入口和菜单，支持展开后的子菜单。",
+    "为蓝图增加“获取 M10 T20 蓝图”右键入口。"
+  ],
   "history": [],
   "id": "gm-menu-localization",
   "publishedAt": "2026-10-16",
   "readme": [
-    "版本 0.1.0；独立模组 `gm-menu-localization`；EveJS 0.12.9，启动器注入总线 API 1。",
-    "汉化游戏内右键 GM / WM 扩展菜单、物品 GM 命令，以及 Insider 工具栏九个入口和菜单。覆盖普通条目、新式菜单控件、静态及延迟展开子菜单。命令、参数、权限和操作功能保持原样；ID、物品/玩家名称及未知文字保留原文。Insider 打开的独立工具窗口内部不在本次范围内。",
-    "蓝图右键 → GM / WM 扩展 → **获取 M10 T20 蓝图**：调用 `/givebp <当前蓝图typeID>`，领取 1 张 ME 10 / TE 20 蓝图原本，放入停靠位置的个人机库。需要同时启用“舰船满级蓝图原本”模组；权限、停靠及蓝图定义检查由该命令执行。不会修改现有蓝图，蓝图原本和拷贝的右键入口均按其类型领取新的原本。",
-    "在启动器启用“GM菜单汉化”，主服务器重启后，用全新客户端登录生效。通过登录握手下发 Python 2.7 内存补丁，不改客户端 `code.ccp`，不修改服务器核心文件。支持与其他追加式登录补丁组合。源码基线不符时拒绝注册，客户端翻译失败时回退原菜单。",
-    "停用模组，重启主服务器并重新启动客户端即可回滚。仅断开重连不会移除已在客户端内存中安装的补丁。不会主动执行 GM 操作或修复服务器未支持的 GM 命令。",
-    "词典：`client/translations.tsv`（UTF-8，英文标签与中文译文用制表符分隔）。客户端安装状态：Python 内建模块的 `_evejs_gm_menu_localization_v1`；日志前缀 `[gm-menu-localization]`。",
-    "验证命令（仓库根目录）：",
-    "```powershell\nnode --test EveJS/mods/gm-menu-localization/tests/mod.test.cjs\npython -B EveJS/mods/gm-menu-localization/tests/test_client.py\nnode EveJS/mods/gm-menu-localization/tools/check_bus.cjs EveJS/_launcher/mods/mod-host.js\n```",
-    "组合验证可在最后一条命令后追加其他模组的 `loader.js` 路径。本次已通过 Node 3 项、Python 菜单行为 14 项、客户端 Python 2.7 编译，以及与舰船满级蓝图原本、舰船作业助手和 Bug修复的总线组合检查。当前词典包含 322 条精确标签；动态 ID、前缀和状态文字另外处理。",
-    "详细设计与验收见 `docs/GM菜单汉化/设计与验收.md`。离线检查不代表游戏内验收；启用后仍需核对中文显示宽度和实际点击行为。"
+    "汉化 GM／WM 扩展菜单、物品 GM 命令和 Insider 工具栏，并提供获取 M10 T20 蓝图的右键入口。",
+    "启用后重启游戏服务端，并完全退出、重新启动客户端。汉化不会改变 GM 权限要求；Insider 打开的独立工具窗口内部不在汉化范围内。",
+    "蓝图领取入口需同时启用“GM命令扩充”。使用 GM 角色停靠后，右键蓝图，选择 GM／WM 扩展中的“获取 M10 T20 蓝图”，即可领取同类型的满研究蓝图原本；原有蓝图不会被修改。"
   ],
   "repo": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization",
   "requiresRestart": true,
