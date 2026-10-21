@@ -14,11 +14,11 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.0/gm-menu-localization-0.1.0.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.2/gm-menu-localization-0.1.2.zip"
     }
   ],
   "evejsVersions": [
-    "0.12.9"
+    "261018.1"
   ],
   "featured": false,
   "highlights": [
@@ -28,16 +28,15 @@
   ],
   "history": [],
   "id": "gm-menu-localization",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-21",
   "readme": [
-    "汉化 GM／WM 扩展菜单、物品 GM 命令和 Insider 工具栏，并提供获取 M10 T20 蓝图的右键入口。",
     "启用后重启游戏服务端，并完全退出、重新启动客户端。汉化不会改变 GM 权限要求；Insider 打开的独立工具窗口内部不在汉化范围内。",
     "蓝图领取入口需同时启用“GM命令扩充”。使用 GM 角色停靠后，右键蓝图，选择 GM／WM 扩展中的“获取 M10 T20 蓝图”，即可领取同类型的满研究蓝图原本；原有蓝图不会被修改。"
   ],
   "repo": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization",
   "requiresRestart": true,
-  "sha256": "98867ef337f8a55c13f185115ae396bbac58c30d212c445c6ca457fb10d27236",
-  "sizeBytes": 22571,
+  "sha256": "74410c4a8541880fff54a53f2505968b4643db727a34b0c4d6937948e40262c8",
+  "sizeBytes": 21577,
   "tags": [],
-  "version": "0.1.0"
+  "version": "0.1.2"
 }
