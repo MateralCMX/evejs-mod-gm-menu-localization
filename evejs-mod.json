@@ -4,7 +4,7 @@
     "keyId": "54c1f8afabfe",
     "name": "Materal"
   },
-  "category": "玩法",
+  "category": "工具",
   "changelog": "",
   "conflicts": [],
   "delisted": false,
@@ -14,29 +14,33 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.2/gm-menu-localization-0.1.2.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization/releases/download/v0.1.6/gm-menu-localization-0.1.6.zip"
     }
   ],
   "evejsVersions": [
-    "261018.1"
+    "261115.2"
   ],
   "featured": false,
   "highlights": [
-    "汉化右键 GM／WM 扩展菜单及物品 GM 命令。",
+    "汉化右键 GM／WM 扩展菜单及物品 GM 命令，并覆盖工业任务、技能、涂装、建筑和通知等模块追加的 GM 菜单。",
+    "汉化 GM 按钮及已核对的技能、星图和角色创建调试按钮。",
+    "属性子菜单显示中文属性名，保留原数值；缺少中文名称的内部属性继续显示原名。",
     "汉化 Insider 工具栏入口和菜单，支持展开后的子菜单。",
+    "汉化星图 GM 筛选中的矿石异常、冰矿带、信号和异常空间名称。",
+    "汉化卫星开采调度窗口的四个 GM 按钮及悬停说明。",
     "为蓝图增加“获取 M10 T20 蓝图”右键入口。"
   ],
   "history": [],
   "id": "gm-menu-localization",
-  "publishedAt": "2026-10-21",
+  "publishedAt": "2026-11-23",
   "readme": [
     "启用后重启游戏服务端，并完全退出、重新启动客户端。汉化不会改变 GM 权限要求；Insider 打开的独立工具窗口内部不在汉化范围内。",
     "蓝图领取入口需同时启用“GM命令扩充”。使用 GM 角色停靠后，右键蓝图，选择 GM／WM 扩展中的“获取 M10 T20 蓝图”，即可领取同类型的满研究蓝图原本；原有蓝图不会被修改。"
   ],
   "repo": "https://github.com/MateralCMX/evejs-mod-gm-menu-localization",
   "requiresRestart": true,
-  "sha256": "74410c4a8541880fff54a53f2505968b4643db727a34b0c4d6937948e40262c8",
-  "sizeBytes": 21577,
+  "sha256": "9165e24e398784ce953508cbaa2ad7e519bb8ae4e79d34e81c93a832c0effcdb",
+  "sizeBytes": 51793,
   "tags": [],
-  "version": "0.1.2"
+  "version": "0.1.6"
 }
